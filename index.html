@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Madan Mohan | Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <h2>Madan</h2>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#notes">Notes</a>
+      <a href="#contact">Contact</a>
+      <button id="themeToggle">🌙</button>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero hero-flex">
+
+  <img src="profilepic.jpg" alt="Madan Mohan" class="profile-pic">
+
+  <div class="hero-text">
+    <h1>Hi, I'm <span>Madan Mohan</span></h1>
+    <p class="subtitle">
+      CSE Student | Web Developer | Intern @ InternPe
+    </p>
+
+    <p class="bio">
+      Passionate Computer Science student with strong fundamentals in
+      HTML, CSS, JavaScript and hands-on internship experience in web development.
+    </p>
+
+    <div class="buttons">
+      <a href="MadanMohanDas_CSE_Resume.pdf" class="btn" target="_blank">
+  Download Resume
+</a>
+      <a href="https://github.com/ermadhav001" class="btn outline">GitHub</a>
+    </div>
+  </div>
+
+</section>
+
+  <!-- About -->
+  <section id="about" class="section reveal">
+    <h2>About Me</h2>
+    <p>
+      I am a passionate Computer Science Engineering student with strong fundamentals in Data Structures, Algorithms, and Web Development. I have hands-on experience through a Web Development Internship at InternPe, where I contributed to building responsive and dynamic web applications. I am eager to apply my technical skills, learn continuously, and contribute to innovative projects. Actively seeking internship and placement opportunities to grow professionally and make meaningful contributions to a team.
+    </p>
+  </section>
+
+  <!-- Skills -->
+ <section id="skills">
+  <h2 class="section-title">My Skills</h2>
+  <div class="skill">
+    <span>C/C++</span>
+    <div class="progress-bar">
+      <div class="progress-level" style="width: 90%; background-color: #00599C;">90%</div>
+    </div>
+  </div>
+
+  <div class="skill">
+    <span>HTML</span>
+    <div class="progress-bar">
+      <div class="progress-level" style="width: 90%; background-color: #E34F26;">90%</div>
+    </div>
+  </div>
+
+  <div class="skill">
+    <span>CSS</span>
+    <div class="progress-bar">
+      <div class="progress-level" style="width: 85%; background-color: #1572b6;">85%</div>
+    </div>
+  </div>
+
+  <div class="skill">
+    <span>JavaScript</span>
+    <div class="progress-bar">
+      <div class="progress-level" style="width: 75%; background-color: #F7DF1E; color: #000;">75%</div>
+    </div>
+  </div>
+
+  <div class="skill">
+    <span>Java</span>
+    <div class="progress-bar">
+      <div class="progress-level" style="width: 50%; background-color: #ED8B00;">50%</div>
+    </div>
+  </div>
+
+  <div class="skill">
+    <span>React</span>
+    <div class="progress-bar">
+      <div class="progress-level" style="width: 70%; background-color: #61DAFB; color: #000;">70%</div>
+    </div>
+  </div>
+</section>
+
+<!-- Education Section -->
+ <section id="education">
+  <h2 class="section-title">Education</h2>
+
+  <div class="edu-item">
+    <h3>B.Tech in Computer Science & Engineering</h3>
+    <span>Bihar Engineering University, Patna | 2023 - 2027</span>
+    <p>CGPA: 7.66/10</p>
+  </div>
+
+  <div class="edu-item">
+    <h3>12th - Science</h3>
+    <span>BSEB | 2022</span>
+    <p>Percentage: 77% | Major Subjects: Physics, Chemistry, Mathematics</p>
+  </div>
+
+  <div class="edu-item">
+    <h3>10th - Secondary School</h3>
+    <span>BSEB | 2020</span>
+    <p>Percentage: 84.6%</p>
+  </div>
+</section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+  <h2>Projects</h2>
+  <div class="grid" id="projectContainer"></div>
+</section>
+  <!-- Notes -->
+<section id="notes" class="notes-section">
+  <h2>📚 Handwritten Notes</h2>
+  <p class="notes-desc">
+    Well-organized handwritten notes converted into PDFs for easy reading.
+    View-only access is enabled.
+  </p>
+
+  <div class="notes-list">
+    <div class="note-card">
+      <h3>Discrete Mathematics</h3>
+      <a href="https://ln.run/XcPoe" target="_blank">View Notes</a>
+    </div>
+
+    <div class="note-card">
+      <h3>Operating System</h3>
+      <a href="https://ln.run/g1GYW" target="_blank">View Notes</a>
+    </div>
+
+    <div class="note-card">
+      <h3>Data Structure</h3>
+      <a href="https://ln.run/xkPY2" target="_blank">View Notes</a>
+    </div>
+
+    <div class="note-card">
+      <h3>Algorithms</h3>
+      <a href="PASTE_DRIVE_LINK_HERE" target="_blank">View Notes</a>
+    </div>
+
+    <div class="note-card">
+      <h3>COA</h3>
+      <a href="https://ln.run/P6Wkr" target="_blank">View Notes</a>
+    </div>
+  </div>
+</section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact-section">
+  <h2>Contact Me</h2>
+
+  <form id="contactForm" class="contact-form">
+    <input
+      type="text"
+      name="from_name"
+      placeholder="Your Name"
+      required
+    />
+
+    <input
+      type="email"
+      name="from_email"
+      placeholder="your email"
+      required
+    />
+
+    <textarea
+      name="message"
+      placeholder="Your Message"
+      required
+    ></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+  <p id="formMsg"></p>
+</section>
+
+  <footer>
+    <p>© 2026 Madan Mohan Das</p>
+  </footer>
+
+ <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="script.js"></script>
+</body>
+<div id="loader">
+  <span></span>
+</div>
+</html>
