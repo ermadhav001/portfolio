@@ -30,17 +30,17 @@ const projects = [
   {
     name: "Amazon Clone (Static)",
     desc: "Pixel-perfect E-commerce replica featuring complex grid layouts and full responsiveness using pure CSS.",
-    link: "https://ermadhav001.github.io/amazon-clone/"
+    link: "madandas01.github.io/amazon-clone/"
   },
   {
     name: "Portfolio Website",
     desc: "Modern portfolio using HTML, CSS and JavaScript.",
-    link: "https://ermadhav001.github.io/portfolio/"
+    link: "madandas01.github.io/portfolio/"
   },
   {
     name: "JavaScript Mini Projects",
     desc: "Collection of small JS projects to strengthen fundamentals.",
-    link: "https://github.com/ermadhav001"
+    link: "https://github.com/madandas01"
   }
 ];
 
