@@ -28,14 +28,14 @@ if (form) {
 // ================= PROJECTS DATA =================
 const projects = [
   {
-    name: "Food Delivery Website",
-    desc: "Responsive frontend with dynamic cart using JavaScript DOM.",
-    link: "https://github.com/ermadhav001"
+    name: "Amazon Clone (Static)",
+    desc: "Pixel-perfect E-commerce replica featuring complex grid layouts and full responsiveness using pure CSS.",
+    link: "https://ermadhav001.github.io/amazon-clone/"
   },
   {
     name: "Portfolio Website",
     desc: "Modern portfolio using HTML, CSS and JavaScript.",
-    link: "https://github.com/ermadhav001"
+    link: "https://ermadhav001.github.io/portfolio/"
   },
   {
     name: "JavaScript Mini Projects",
